@@ -1,0 +1,885 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+} 
+body{
+	width: 1180px;
+	margin:0px auto;
+	background-color: #f8f7f6;
+} 
+.big{
+	width: 100%;
+}
+.toppest{
+	position: relative;
+	width: 1180px;
+	height:20px;
+	background-color: #ffffff;
+}
+.w1{
+	position: absolute;
+	color: #696969;
+	width:90px;
+	height:20px;  
+	margin-left:80px; 
+	font-size:11px; 
+	line-height:20px; 
+	display: inline-block;
+}
+.line{
+	position: absolute;
+	display: inline-block;
+	width:800px;
+	height:20px;
+	left:450px;
+
+}
+.lg1{
+	cursor:pointer;
+	display: inline-block;
+	margin-left:10px;
+	width: 20px;
+	height:23px;
+	background:url('任务所需小图/img/common_min.png')no-repeat;
+	background-position:center -30px; 
+}
+.lg2{
+	cursor:pointer;
+	display: inline-block;
+	margin-left:10px;
+	width: 20px;
+	height:23px;
+	background:url('任务所需小图/img/common_min.png')no-repeat;
+	background-position:center -52px;
+}
+.lg3{
+	cursor:pointer;
+	display: inline-block;
+	margin-left:10px;
+	width: 20px;
+	height:23px;
+	background:url('任务所需小图/img/common_min.png')no-repeat;
+	background-position:center -74px;
+}
+.lg4 {
+	margin-left:10px;
+	display: inline-block;
+	width:auto;
+	height:20px; 
+}
+.lg4 li{
+	float:left; 
+	margin-right:20px;
+	font-size:11px; 
+	line-height:20px; 
+}
+.lg4 li a:hover{
+	color: orange;
+}
+.lg5{
+	float:left;
+	width: 20px;
+	height:23px;
+	background:url('任务所需小图/img/common_min.png')no-repeat;
+	background-position:center -112px;
+}
+.lg6{
+	float:left;
+	width: 20px;
+	height:23px;
+	background:url('任务所需小图/img/dingdan.jpg')no-repeat;
+	background-position:center 3px;
+}
+.lg7{
+	float:left;
+	width: 20px;
+	height:18px;
+	background:url('任务所需小图/img/tp-my-phone.png')no-repeat;
+	background-position:center 1px;
+}
+.lg8{
+	margin-left:-2px; 
+	float:left;
+	width: 18px;
+	height:15px;
+	background:url('任务所需小图/img/gouwuche.jpg')no-repeat;
+	background-position:center 1px;
+}
+.lg4 span{
+	float: left;
+	margin-left:-5px; 
+	font-size: 13px;
+	font-weight: bold;
+	color:	#FF7F50; 
+}
+.un{
+	width: 1180px;
+	height:110px;
+	position: relative;
+	background-color: #ffffff;
+}
+.unlf{
+	display:inline-block; 
+	width: 270px;
+	height:90px;
+	margin-top:10px;
+}
+.searchbar{
+	height: 30px;
+	border: solid 1px;
+}
+.lf-pic{
+	margin-left: 80px;
+	cursor: pointer;
+	width: 140px;
+	height:90px;
+	background:url('任务所需小图/img/logo_03.jpg') no-repeat;
+	background-size:contain; 
+	background-position:center center; 
+}
+.uncenter{
+	display:inline-block; 
+	width: 520px;
+	height:100px;
+}		
+.sech{
+	position: relative;
+	margin-left:20px;
+	margin-top:30px;
+}
+.sch1{
+	position: absolute;
+	top: 0px;
+	border: 2px solid #FF7F50;
+	width:400px;
+	height:30px;
+	font-size:13px;
+	outline: none;
+	color: 	#696969;
+}
+.sch2{
+	cursor:pointer;
+	position: absolute;
+	top: 0px;
+	left: 400px;
+	border: 1px solid #FF4500;
+	width:80px;
+	height:34px;
+	color:  #fff;
+	outline: none;
+	background-color: #FF4500;
+}
+.searchhot{
+	position: absolute;
+	width:520px;
+	height:20px; 
+	margin-top:50px;
+	margin-left:10px; 
+}
+.searchhot li{
+	color: 	#9370DB;
+	font-size:10.5px; 
+	float: left;
+}
+.ha a{
+	color: #FF4500 !important;
+}
+.hb a{
+	color: #696969 !important;
+}
+.unright{
+	top:0px;
+	position: absolute;
+	display:inline-block;
+	width: 350px;
+	height:100px;
+}
+.lk1{
+	position: absolute;
+	display: inline-block;
+	font-size:11px; 
+	border-radius: 5px;
+	border: 1px solid #A9A9A9;
+	width:90px;
+	height:34px;
+	text-align:center;
+	top: 50%;
+	margin-top: -18px;
+	left: 50px;
+}
+.lg9{
+	display:inline-block;
+	width: 18px;
+	height:18px;
+	background:url('任务所需小图/img/common_min.png')no-repeat;
+	background-position:center -95px;
+}
+ .lk1 a{
+	color:	#A9A9A9; 
+	display:block;
+	text-align: center;
+}
+.lk2{
+	text-align: center;
+	position: absolute;
+	display: inline-block;
+	font-size:11px; 
+	border-radius: 5px;
+	border: 1px solid #A9A9A9;
+	width:90px;
+	height:34px;
+	top: 50%;
+	margin-top: -18px;
+	left: 150px;
+}
+.lg10{
+	width: 18px;
+	height:18px;
+	background:url('任务所需小图/img/common_min.png')no-repeat;
+	background-position:center -112px;
+}
+.lk2 a{
+	display: block;
+	color:	#A9A9A9; 
+	text-align: center;
+}
+.lk3{
+	cursor: pointer;
+	position: absolute;
+	display: inline-block;
+	line-height: 34px;
+	border-radius: 5px;
+	left: 250px;
+	top: 50%;
+	margin-top: -18px;
+	width:90px;
+	height:34px;
+	font-size:12px; 
+	background-color: #FF4500;
+	color: 	#FFFFFF;
+}
+.lg11{
+	margin-top:10px;
+	margin-left:5px;
+	float:left;
+	width: 18px;
+	height:18px;
+	background:url('任务所需小图/img/wenhao.jpg')no-repeat;
+	background-size:15px 15px;  
+}
+.shou{
+	position: relative;
+	width: 1180px;
+	height: 40px;
+}
+.shou ul{
+	width: 1180px;
+	height: 40px;
+	background-color: #000;
+	box-sizing: border-box;
+}
+.shou ul li{
+	float: left;
+	line-height: 30px;
+	width: 70px;
+	text-align: center;
+	margin-left: 30px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 5px;
+}
+.shou ul li:nth-child(1){
+	background-color: #FF0066;
+}
+.shou ul li:nth-child(9){
+	margin-left: 30px;
+	width: 160px;
+	height: 30px;
+	background: url('任务所需小图/img/ff_03.jpg')no-repeat;
+	background-size: cover;
+	z-index: 9;
+}
+.shou ul li:nth-child(9):hover{
+	background-color: #FF0066;
+}
+.shou ul li:hover{
+	background-color: #FF0066;
+}
+.d{
+	width: 1145px;
+	margin-left: 35px;
+	padding-top: 3px;
+	margin-bottom: 3px;
+	font-size: 12px;
+}
+.mxter{
+	position: relative;
+	width:1180px;
+	height:600px;
+}
+.mxary{
+	width: 100%;
+	height: 100%;
+}
+.mxleft{
+	display: inline-block;
+	background-color: #fff;
+	width: 82%;
+	height: 100%;
+	position: relative;
+	margin-left: 35px;
+}
+.mxrig{
+	display: inline-block;
+	/* border: 1px solid #000; */
+	width: 13%;
+	background-color: #fff;
+	height: 100%;
+	background: url('任务所需小图/img/ww_07.jpg')no-repeat;
+	background-size: cover;
+}
+.mxlittop{
+	position: relative;
+	width: 340px;
+	border: 1px solid #000;
+	height: 340px;
+	margin:10px;
+	border: 3px solid #eee;
+}
+.xmove{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: inline-block;
+	display: none;
+	height: 130px;
+	width: 130px;
+	background-color: rgba(105, 105, 105, 0.1);
+}
+.mxlitbom{
+	width: 350px;
+	height: 50px;
+	margin-left: 10px;
+}
+.mxarrft{
+	float: left;
+	display: inline-block;
+	width: 20px;
+	height: 50px;
+	margin-right: 10px;
+	background: url('任务所需小图/img/spanl.jpg') no-repeat;
+	background-size: contain;
+
+}
+.mxarrft:hover{
+	border: 1px solid orange;
+}
+.mxlitbom ul{
+	float: left;
+	width: 150px;
+	height: 50px;
+}
+.mxlitbom ul li{
+	box-sizing: border-box;
+	float: left;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.mxlitbom ul li img{
+	width: 100%;
+	height: 100%;
+}
+.xarrowRight{
+	float: right;
+	display: inline-block;
+	display: inline-block;
+	width: 20px;
+	height: 50px;
+	background: url('任务所需小图/img/spanr.jpg') no-repeat;
+	background-size: contain;
+}
+.xarrowRight:hover{
+	border: 1px solid orange;
+}
+.xbig{
+	width: 346px;
+	height: 346px;
+	border: 3px solid #eee;
+	position: absolute;
+	left: 360px;
+	top: 10px;
+	box-sizing: border-box;
+	display: none;
+	overflow: hidden;
+	z-index: 99;
+	background-color: #fff;
+}
+.xbig img{
+	width: 300%;
+	height: 300%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.mxleftCen{
+	position: absolute;
+	left: 400px;
+	top: 10px;
+	width: 550px;
+	height: 90%;
+	padding: 10px;
+}
+.mxtitle{
+	font-weight: 600;
+	font-size: 21px;
+	margin: 10px;
+}
+.xdest{
+	color: #666;
+}
+.cont{
+	width: 90%;
+	margin: 10px auto;
+}
+.price{
+	height:50px;
+	line-height: 50px;
+}
+.price span{
+	display: inline-block;
+	margin-left: 4px;
+}
+.price span:nth-child(1){
+	font-size: 12px;
+}
+.price span:nth-child(2){
+	font-size: 25px;
+	margin-left: 40px;
+	color:	#FF1493;
+}
+.price span:nth-child(3){
+	font-size: 17px;
+	text-decoration: line-through;
+	margin-left: 30px;
+}
+.good{
+	height: 100px;
+	width: 80%;
+	background: url('任务所需小图/img/ss_09.jpg')no-repeat;
+}
+.num{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.num span:nth-child(1){
+	font-size: 12px;
+}
+.num span:nth-child(2){
+	display: inline-block;
+	width: 70px;
+	text-align: center;
+	border: 1px solid #FF1493;
+	margin-left: 20px;
+	background: url('任务所需小图/img/duigou.png')no-repeat;
+	background-position: 57px 17px;
+	cursor: pointer;
+}
+.num span:nth-child(3){
+	display: inline-block;
+	width: 70px;
+	text-align: center;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.numadd{
+	height: 30px;
+	width: 100%;
+	line-height: 20px;
+	margin: 20px 0px;
+	position: relative;
+	vertical-align: center;
+}
+.numadd span{
+	font-size: 12px;
+	margin-right: 40px;
+	line-height: 30px;
+}
+.mxdc,.ic{
+	border: 1px solid #ccc;
+	display: inline-block;
+	width: 30px;
+	height: 100%;
+	text-align: center;
+	position: absolute;
+	line-height: 30px;
+}
+ .mxdc{
+	top: 0px;
+	left: 78px;
+}
+.ic{
+	top: 0px;
+	left: 162px;
+}
+.numadd input{
+	height: 30px;
+	width: 50px;
+	position: absolute;
+	top: 0px;
+	left: 110px;
+	border: 1px solid #777;
+	text-align: center;
+	outline: 0;
+}
+.data{
+	position: absolute;
+	display: inline-block;
+	left: 200px;
+}
+.xl{
+	height: 47px;
+	width: 100%;
+	background: url('任务所需小图/img/oo_03.jpg')no-repeat;
+}
+.mxsel{
+	margin-left: 80px;
+	height: 30px;
+	width: 200px;
+	font-size: 12px;
+	line-height: 30px;
+}
+.sc{
+	font-style: normal;
+	color: #FF9900;
+}
+.btn{
+	margin-top: 20px;
+	height: 40px;
+	width: 100%;
+}
+.bt1,.bt2{
+	width: 110px;
+	height: 35px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+}
+.btn button:nth-child(1){
+	background-color: #fff;
+	color: #FF1493;
+	border: solid 1px #FF1493;
+}
+.btn button:nth-child(2){
+	background-color: #FF0066;
+	color: #fff;
+}
+.mxmb{
+	width: 100%;
+	height: 200%;
+	background-color: rgba(128, 128, 128, 0.5);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 10;
+	display: none;
+}
+.mc{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+	width: 300px;
+	height: 150px;
+	z-index: 20;
+	background: #fff;
+	text-align: center;
+	padding: 10px 0px;
+	display: none;
+}
+.mc img{
+	margin-top: 10px;
+	width: 100%;
+}
+.mc button{
+	width: 35%;
+	height: 40px;
+	border-radius: 3px;
+	border: 1px solid #FF0066;
+	cursor: pointer;
+}
+.mc button:nth-child(2){
+	color: #FF0066;
+	background-color: #fff;
+}
+.mc button:nth-child(3){
+	color: #fff;
+	background-color: #FF0066;
+}
+.mc span{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+}
+.mximg{
+	width: 1180px;
+	height: 100px;
+	background: url('任务所需小图/img/a_07.jpg')no-repeat center ;
+	background-size: 1100px;
+	margin-bottom: 20px;
+
+}
+.bottomer{
+	position: relative;
+	width:1180px;
+	height:325px;
+	background-color:#ffffff;
+}	
+.connect{
+	position:relative;
+	width:auto;
+	height:180px;
+	padding-left: 55px;
+}
+.pic_20{
+	cursor: pointer;
+	position: absolute;
+	width:150px;
+	height:180px;
+	background-size:150px 150px; 
+	background:url('任务所需小图/img/loginB.jpg') no-repeat; 
+	background-position:center -50px -20px;
+}
+.others{
+	position: relative;
+	margin-left:150px;
+	border-bottom: 1px solid #D3D3D3;
+	width:870px;
+	height:180px;
+}
+.content{
+	left:40px;
+	top:30px;
+	position:absolute;
+	width:700px;
+	height:25px;
+}
+.content li{
+	font-size:13px;
+	cursor: pointer;
+	float: left;
+	margin-left:55px; 
+}
+.c1{
+	left:95px;
+	top:50px;
+	position:absolute;
+	width:80px;
+	height:100px;
+}
+.c1 li{
+	float: left;
+	margin-top:5px;
+	font-size:13px; 
+}
+.c1 li a{
+	font-size:11px;
+	color: 	#808080;
+}
+.c2{
+	left:203px;
+	top:50px;
+	position:absolute;
+	width:80px;
+	height:100px;
+}
+.c2 li{
+	float: left;
+	margin-top:5px;
+	font-size:13px; 
+}
+.c2 li a{
+	font-size:11px;
+	color: 	#808080;
+}
+.c3{
+	left:310px;
+	top:50px;
+	position:absolute;
+	width:80px;
+	height:100px;
+}
+.c3 li{
+	float: left;
+	margin-top:5px;
+	font-size:13px; 
+}
+.c3 li a{
+	font-size:11px;
+	color: 	#808080;
+}
+.c4{
+	left:417px;
+	top:50px;
+	position:absolute;
+	width:80px;
+	height:100px;
+}
+.c4 li{
+	float: left;
+	margin-top:5px;
+	font-size:13px; 
+}
+.c4 li a{
+	font-size:11px;
+	color: 	#808080;
+}
+.c5{
+	left:518px;
+	top:50px;
+	position:absolute;
+	width:80px;
+	height:100px;
+}
+.c5 li{
+	float: left;
+	margin-top:5px;
+	font-size:13px; 
+}
+.c5 li a{
+	font-size:11px;
+	color: 	#808080;
+}
+.c6{
+	left:610px;
+	top:50px;
+	position:absolute;
+	width:80px;
+	height:100px;
+}
+.c6 li{
+	float: left;
+	margin-top:5px;
+	font-size:13px; 
+}
+.c6 li a{
+	font-size:11px;
+	color:	#696969;
+}
+.pic_21{
+	cursor: pointer;
+	position: absolute;
+	left:928px;
+	bottom:8px;
+	width:150px;
+	height:180px;
+	background-size:150px 150px; 
+	background:url('任务所需小图/img/erweima.jpg') no-repeat; 
+	background-position:center 30px;
+}
+.rights{
+	width:1180px;
+	height:80px;
+}
+.rights_1{
+	width:600px;
+	height:15px;
+	margin: auto;
+	margin-top:10px;
+}
+.rights_1 li{
+	margin-left:5px;
+	float: left;
+	font-size:11px; 
+}
+.rights_2{
+	margin-top:10px;
+	height:15px;
+	color: #A9A9A9;
+	font-size:10px;
+	text-align: center;
+}
+.rights_3{
+	width:970px;
+	height:15px;
+	color: #A9A9A9;
+	font-size:10px;
+	text-align:center;
+	margin:auto;
+}
+.rights_4{
+	width:120px;
+	height:15px;
+	color: #A9A9A9;
+	font-size:11px;
+	margin:auto;
+	text-align: center;
+}
+.bottom_log{
+	position: relative;
+	width:auto;
+	height:51px;
+}
+.bt_lg{
+	margin:auto;
+	width:790px;
+	height:51px;
+}
+.bt_lg li{
+	cursor: pointer;
+	float: left;
+	margin-left: 5px;
+}
+.lg17{
+	width:49px;
+	height:51px;
+	background:url('任务所需小图/img/bo1.gif')no-repeat;
+}
+.lg18{
+	width:113px;
+	height:51px;
+	background:url('任务所需小图/img/bo2.png')no-repeat;
+	background-position:center 5px;
+}
+.lg19{
+	width:97px;
+	height:51px;
+	background:url('任务所需小图/img/bo3.gif')no-repeat;
+	background-position:center 5px;
+}
+.lg20{
+	width:128px;
+	height:51px;
+	background:url('任务所需小图/img/bo4.png')no-repeat;
+	background-position:center 2px;
+}
+.lg21{
+	width:111px;
+	height:51px;
+	background:url('任务所需小图/img/bo5.png')no-repeat;
+	background-position:center 5px;
+}
+.lg22{
+	width:106px;
+	height:51px;
+	background:url('任务所需小图/img/bo6.png')no-repeat;
+	background-position:center 5px;
+}
+.lg23{
+	width:150px;
+	height:51px;
+	background:url('任务所需小图/img/bo7.png')no-repeat;
+}
